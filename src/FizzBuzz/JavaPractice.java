@@ -17,6 +17,11 @@ public class JavaPractice {
                 System.out.println(i);
             }
         }
-
+        //basic for loop
+        for(int i =0; i<=10; i++) {
+            System.out.println(i);
+        }
     }
+
+
 }
