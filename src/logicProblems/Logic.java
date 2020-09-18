@@ -18,3 +18,4 @@ public class Logic {
         return product - sum;
     }
 }
+
