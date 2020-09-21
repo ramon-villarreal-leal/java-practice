@@ -18,12 +18,33 @@ public class PrimitiveTypes {
         // use appropriate numbers and data  types
 
         int myMaxIntTest = 2147483647;
-
         byte myMinByteValue = Byte.MIN_VALUE;
         byte myMaxByteValue = Byte.MAX_VALUE;
 
         System.out.println("Byte Maximum Value = " + myMaxByteValue );
         System.out.println("Byte Minimum Value = " +myMinByteValue );
 
+
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
+        System.out.println("Short Maximum Value = " + myMaxShortValue );
+        System.out.println("Short Minimum Value = " +myMinShortValue );
+        
+        long myLongValue = 100L;
+
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println("Long Maximum Value = " + myMaxLongValue );
+        System.out.println("Long Minimum Value = " +myMinLongValue );
+
+        long bigLongLiteralValue;
+
+        short bigShortLiteralValue = 32767;
+
+        int myTotal = (myMinIntValue / 2);
+        // casting in Java
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+
+        short myNewShortValue = (short) (myMinShortValue /2);
     }
 }
