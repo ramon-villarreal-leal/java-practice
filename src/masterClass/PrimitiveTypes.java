@@ -14,28 +14,28 @@ public class PrimitiveTypes {
         //example of an overflow
         System.out.println("Busted Max value is = " + (myMaxIntValue + 1));
         //example of underflow it flips to opposite
-        System.out.println("Busted Min value is = " + (myMinIntValue -1));
+        System.out.println("Busted Min value is = " + (myMinIntValue - 1));
         // use appropriate numbers and data  types
 
         int myMaxIntTest = 2147483647;
         byte myMinByteValue = Byte.MIN_VALUE;
         byte myMaxByteValue = Byte.MAX_VALUE;
 
-        System.out.println("Byte Maximum Value = " + myMaxByteValue );
-        System.out.println("Byte Minimum Value = " +myMinByteValue );
+        System.out.println("Byte Maximum Value = " + myMaxByteValue);
+        System.out.println("Byte Minimum Value = " + myMinByteValue);
 
 
         short myMinShortValue = Short.MIN_VALUE;
         short myMaxShortValue = Short.MAX_VALUE;
-        System.out.println("Short Maximum Value = " + myMaxShortValue );
-        System.out.println("Short Minimum Value = " +myMinShortValue );
-        
+        System.out.println("Short Maximum Value = " + myMaxShortValue);
+        System.out.println("Short Minimum Value = " + myMinShortValue);
+
         long myLongValue = 100L;
 
         long myMinLongValue = Long.MIN_VALUE;
         long myMaxLongValue = Long.MAX_VALUE;
-        System.out.println("Long Maximum Value = " + myMaxLongValue );
-        System.out.println("Long Minimum Value = " +myMinLongValue );
+        System.out.println("Long Maximum Value = " + myMaxLongValue);
+        System.out.println("Long Minimum Value = " + myMinLongValue);
 
         long bigLongLiteralValue;
 
@@ -45,6 +45,17 @@ public class PrimitiveTypes {
         // casting in Java
         byte myNewByteValue = (byte) (myMinByteValue / 2);
 
-        short myNewShortValue = (short) (myMinShortValue /2);
+        short myNewShortValue = (short) (myMinShortValue / 2);
+        System.out.println("start of test!");
+        byte aNumber = 32;
+        short shortNumber = 55;
+        int intNumber = 1500;
+        int sum = aNumber + shortNumber +intNumber * 10;
+
+        long longNumber = 50000 + sum;
+        System.out.println(longNumber);
+
     }
+
+
 }
