@@ -47,12 +47,12 @@ public class PrimitiveTypes {
 
         short myNewShortValue = (short) (myMinShortValue / 2);
         System.out.println("start of test!");
-        byte aNumber = 32;
-        short shortNumber = 55;
-        int intNumber = 1500;
-        int sum = aNumber + shortNumber +intNumber * 10;
+        byte aNumber = 10;
+        short shortNumber = 20;
+        int intNumber = 50;
+        int sum = aNumber + shortNumber +intNumber;
 
-        long longNumber = 50000 + sum;
+        long longNumber = 50000L + 10L * (sum);
         System.out.println(longNumber);
 
     }
