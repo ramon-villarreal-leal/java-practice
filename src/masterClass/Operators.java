@@ -1,9 +1,20 @@
 package masterClass;
 
 public class Operators {
-    int result = 3; // 1 + 2 =3
-    int previousResult;
 
 
-    result = result - 1;
+
+    public static void main(String[] args) {
+        int result = 3; // 1 + 2 =3
+        int previousResult;
+        result = result * 10;
+
+        result++;
+
+        result--;
+
+        result += 2;
+
+        System.out.println(result);
+    }
 }
