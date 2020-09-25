@@ -40,7 +40,7 @@ public class Operators {
         }
 
         int newValue = 50;
-        if(newValue = 50) {
+        if(newValue == 50) {
             System.out.println("This is an error");
         }
     }
