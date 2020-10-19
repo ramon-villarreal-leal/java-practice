@@ -6,6 +6,8 @@ public class Weapon {
     private int magicWand;
     private int mace;
     private int upgradeWeapon;
+    private int weaponDamage;
+
 
     public int getUpgradeWeapon() {
         return upgradeWeapon;
@@ -45,5 +47,13 @@ public class Weapon {
 
     public void setMace(int mace) {
         this.mace = mace;
+    }
+
+    public int getWeaponDamage() {
+        return weaponDamage;
+    }
+
+    public void setWeaponDamage(int weaponDamage) {
+        this.weaponDamage = weaponDamage;
     }
 }
