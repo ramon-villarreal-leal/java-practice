@@ -33,6 +33,11 @@ public class Game {
 
 
     public static void main(String[] args) {
+        Hero player1 = new Hero();
+        Weapon p1 = new Weapon();
 
+        if(player1.equals(p1.getAxe())) {
+            System.out.println("You're a Barbarian!!!");
+        }
     }
 }
