@@ -1,17 +1,9 @@
 package rpgGame;
 
 public class Enemy {
-    private int health;
     private int attack;
+    private int defense;
     private int potions;
-
-    public int getHealth() {
-        return health;
-    }
-
-    public void setHealth(int health) {
-        this.health = health;
-    }
 
     public int getAttack() {
         return attack;
@@ -19,6 +11,14 @@ public class Enemy {
 
     public void setAttack(int attack) {
         this.attack = attack;
+    }
+
+    public int getDefense() {
+        return defense;
+    }
+
+    public void setDefense(int defense) {
+        this.defense = defense;
     }
 
     public int getPotions() {
