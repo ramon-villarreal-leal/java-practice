@@ -12,5 +12,12 @@ public class CollectionsPlayground {
         roasts.add("medium");
         roasts.add("medium");
         roasts.add("dark");
+
+
+        roasts.contains("dark"); // true
+        roasts.contains("espresso"); // false
+
+
+        roasts.lastIndexOf("medium"); // 2
     }
 }
