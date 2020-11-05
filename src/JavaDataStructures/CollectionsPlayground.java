@@ -19,5 +19,18 @@ public class CollectionsPlayground {
 
 
         roasts.lastIndexOf("medium"); // 2
+
+
+        roasts.isEmpty(); // false
+        ArrayList<String> emptyList = new ArrayList<>();
+        emptyList.isEmpty(); // true
+
+
+        roasts.remove("espresso"); // false
+        roasts.remove("medium"); // true
+        System.out.println(roasts); // [light, medium, dark]
+
+        roasts.remove(2); // "dark"
+        System.out.println(roasts); // [light, medium]
     }
 }
