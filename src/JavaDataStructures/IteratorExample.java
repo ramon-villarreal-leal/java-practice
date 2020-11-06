@@ -18,6 +18,18 @@ public class IteratorExample {
 
         Iterator iterator1 = collection1.iterator();
 
+        Collection collection2 = Arrays.asList("SF", "AZ", "GA");
+
+        Iterator iterator2 = collection2.iterator();
+
+        while(iterator1.hasNext()) {
+            System.out.println(iterator1.next());
+        }
+
+        while(iterator2.hasNext()) {
+            System.out.println(iterator2.next());
+        }
+
     }
 
     //Iterator is useful for using ArrayList, LinkedList, Queues and Stacks
