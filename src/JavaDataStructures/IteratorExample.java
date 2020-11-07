@@ -20,7 +20,9 @@ public class IteratorExample {
 
         Collection collection2 = Arrays.asList("SF", "AZ", "GA");
 
-        Iterator iterator2 = collection2.iterator();
+
+
+        Iterator iterator3 = collection2.iterator();
 
         while(iterator1.hasNext()) {
             System.out.println(iterator1.next());
@@ -28,6 +30,10 @@ public class IteratorExample {
 
         while(iterator2.hasNext()) {
             System.out.println(iterator2.next());
+        }
+
+        while(iterator3.hasNext()) {
+            System.out.println(iterator3.next());
         }
 
     }
