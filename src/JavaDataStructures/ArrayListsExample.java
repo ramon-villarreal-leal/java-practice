@@ -17,7 +17,10 @@ public class ArrayListsExample {
         ArrayList<VideoGame> games = new ArrayList<>();
         games.add(game1);
         games.add(game2);
-        games.add(game3);
+        //adding the game after position 0 wooo learn something new everyday!
+        games.add(0,game3);
+
+        System.out.println(game1);
 
 
 

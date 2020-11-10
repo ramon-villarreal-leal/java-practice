@@ -16,4 +16,36 @@ public class VideoGame {
         this.rating = rating;
         this.platforms = platforms;
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public String getRating() {
+        return rating;
+    }
+
+    public void setRating(String rating) {
+        this.rating = rating;
+    }
+
+    public String[] getPlatforms() {
+        return platforms;
+    }
+
+    public void setPlatforms(String[] platforms) {
+        this.platforms = platforms;
+    }
 }
