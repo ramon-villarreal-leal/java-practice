@@ -1,10 +1,10 @@
 package JavaDataStructures;
 
 public class VideoGame {
-    public String title;
-    public int year;
-    public String rating;
-    public String[] platforms;
+    private String title;
+    private int year;
+    private String rating;
+    private String[] platforms;
 
 
 
