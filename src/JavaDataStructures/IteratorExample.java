@@ -28,13 +28,13 @@ public class IteratorExample {
             System.out.println(iterator1.next());
         }
 
-        while(iterator2.hasNext()) {
-            System.out.println(iterator2.next());
-        }
-
-        while(iterator3.hasNext()) {
-            System.out.println(iterator3.next());
-        }
+//        while(iterator2.hasNext()) {
+//            System.out.println(iterator2.next());
+//        }
+//
+//        while(iterator3.hasNext()) {
+//            System.out.println(iterator3.next());
+//        }
 
     }
 
