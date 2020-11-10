@@ -9,6 +9,7 @@ public class ArrayListsExample {
 
         VideoGame game1 = new VideoGame("Battlefield 1", 2001, "M", platform1);
         VideoGame game2 = new VideoGame("Dark Souls", 2009, "M", platform1);
+        VideoGame game3 = new VideoGame("Pikmin 3", 2012, "E", platform2);
 
     }
 }
