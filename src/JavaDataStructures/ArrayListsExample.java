@@ -8,5 +8,7 @@ public class ArrayListsExample {
         String [] platform2 = {"3DS", "Wii U"};
 
         VideoGame game1 = new VideoGame("Battlefield 1", 2001, "M", platform1);
+        VideoGame game2 = new VideoGame("Dark Souls", 2009, "M", platform1);
+
     }
 }
