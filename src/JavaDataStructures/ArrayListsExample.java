@@ -7,6 +7,6 @@ public class ArrayListsExample {
         String [] platform1 = {"Ps4"};
         String [] platform2 = {"3DS", "Wii U"};
 
-        VideoGame game1 = new VideoGame();
+        VideoGame game1 = new VideoGame("Battlefield 1", 2001, "M", platform1);
     }
 }
