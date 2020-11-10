@@ -1,5 +1,7 @@
 package JavaDataStructures;
 
+import java.util.ArrayList;
+
 public class ArrayListsExample {
     public static void main(String[] args) {
         //Array list are not thread safe
@@ -10,6 +12,12 @@ public class ArrayListsExample {
         VideoGame game1 = new VideoGame("Battlefield 1", 2001, "M", platform1);
         VideoGame game2 = new VideoGame("Dark Souls", 2009, "M", platform1);
         VideoGame game3 = new VideoGame("Pikmin 3", 2012, "E", platform2);
+
+        ArrayList<VideoGame> games = New ArrayList;
+        games.add(platform1);
+        games.add(platform1);
+        games.add(game2);
+
 
     }
 }

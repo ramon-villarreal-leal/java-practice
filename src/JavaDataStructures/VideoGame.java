@@ -6,12 +6,14 @@ public class VideoGame {
     public String rating;
     public String[] platforms;
 
+
+
+    public VideoGame(){}
+
     public VideoGame(String title, int year, String rating, String[] platforms) {
         this.title = title;
         this.year = year;
         this.rating = rating;
         this.platforms = platforms;
     }
-
-    public VideoGame(){}
 }
