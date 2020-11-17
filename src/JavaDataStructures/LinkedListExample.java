@@ -1,6 +1,7 @@
 package JavaDataStructures;
 
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class LinkedListExample {
     public static void main(String[] args) {
@@ -17,7 +18,9 @@ public class LinkedListExample {
         states.add("Connecticut");
         states.addFirst("Alabama");
         System.out.println("Last state in my list: " + states.getLast());
-
-
+        // allows to change size of linkedlist
+        ListIterator iterator = states.listIterator(states.size());
+        while(iterator.hasPrevious());
+        System.out.println(iterator.previous());
     }
 }
