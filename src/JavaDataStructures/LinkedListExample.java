@@ -13,5 +13,11 @@ public class LinkedListExample {
         states.add("Arizona");
         states.add("Arkansas");
         states.add("Colorado");
+        //Last item of LinkedList points to null to indicate end of the list
+        states.add("Connecticut");
+        states.addFirst("Alabama");
+        System.out.println("Last state in my list: " + states.getLast());
+
+
     }
 }
