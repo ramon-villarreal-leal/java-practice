@@ -20,7 +20,8 @@ public class LinkedListExample {
         System.out.println("Last state in my list: " + states.getLast());
         // allows to change size of linkedlist
         ListIterator iterator = states.listIterator(states.size());
-        while(iterator.hasPrevious());
-        System.out.println(iterator.previous());
+        while(iterator.hasPrevious()) {
+            System.out.println(iterator.previous());
+        }
     }
 }
