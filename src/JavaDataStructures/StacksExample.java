@@ -13,7 +13,7 @@ public class StacksExample {
     public static void main(String[] args) {
         //fori tab For loop shortcut
         Stack stack = new Stack();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <= 10; i++) {
             stack.push(i);
         }
 
@@ -22,6 +22,6 @@ public class StacksExample {
             System.out.println(stack.pop());
             System.out.println(",");
         }
-        System.out.println("LIFT OFF");
+        System.out.println("LIFT-OFF!!!");
     }
 }
