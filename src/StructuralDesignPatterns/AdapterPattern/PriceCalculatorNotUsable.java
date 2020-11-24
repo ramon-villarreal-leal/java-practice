@@ -1,6 +1,6 @@
 package StructuralDesignPatterns.AdapterPattern;
 
-public interface PriceCalculator {
+public interface PriceCalculatorNotUsable {
     // Adapter Pattern
 
 }
