@@ -32,5 +32,11 @@ public class Practice {
     // Inheritance
     // Polymorphism
 
+    // String literals String a = "abc";
+    //String Object String A = new String("abc");
+    //Strings are immutable in Java
 
+    //Classes like StringBuilder and StringBuffer allow you to make String objects that are mutable
+
+    //StringBuffer is thread safe and Strings are stored as Byte arrays instead of Char arrays
 }
