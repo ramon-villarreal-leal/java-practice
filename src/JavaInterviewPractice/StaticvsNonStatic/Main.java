@@ -20,5 +20,9 @@ public class Main {
         System.out.println();
         System.out.println("Face value: " + d.getFaceValue());
         System.out.println("Face value " + otherDice.getFaceValue());
+
+        //things that are wrong
+        // d.sidesOfDice
+
     }
 }
