@@ -12,7 +12,7 @@ public class Dice {
         return this.faceValue;
     }
 
-    public static void main(String[] args) {
+    public static void changeNumberOfSides(int newNumberOfSides) {
 
         Dice.sidesOfDice = newNumberOfSides;
     }
