@@ -17,6 +17,8 @@ public class Main {
         }
 
         //Retrieving face value
-
+        System.out.println();
+        System.out.println("Face value: " + d.getFaceValue());
+        System.out.println("Face value " + otherDice.getFaceValue());
     }
 }
