@@ -10,7 +10,8 @@ public class Main1 {
         String nothing = " ";
 
         for(String s : strings) {
-            System.out.println();
+            System.out.println("message");
+
         }
 
     }
