@@ -4,6 +4,7 @@ public class Enemy {
     private int attack;
     private int defense;
     private int potions;
+    private int shield;
 
     public int getAttack() {
         return attack;
@@ -27,5 +28,13 @@ public class Enemy {
 
     public void setPotions(int potions) {
         this.potions = potions;
+    }
+
+    public int getShield() {
+        return shield;
+    }
+
+    public void setShield(int shield) {
+        this.shield = shield;
     }
 }
