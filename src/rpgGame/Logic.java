@@ -9,6 +9,7 @@ public class Logic {
         Hero hero1 = new Hero();
         Weapon weapon1 = new Weapon();
         hero1.setAttack(45);
+
     }
 }
 
