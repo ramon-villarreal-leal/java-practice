@@ -10,6 +10,8 @@ public class Logic {
         Weapon weapon1 = new Weapon();
         hero1.setAttack(45);
 
+
+
     }
 }
 
