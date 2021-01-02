@@ -21,6 +21,10 @@ public class HappyNewYear {
     }
 
     public static void main(String[] args) {
+        System.out.println("This is a Happy New year commit");
+        System.out.println("May this year bring everything you worked for and ever wanted to fruition!");
+
+
 
     }
 }
