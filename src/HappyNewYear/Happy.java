@@ -21,10 +21,9 @@ public class Happy {
     }
 
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            if(i > 0) {
-                System.out.println("Today will be a good day");
-            }
+        String[] happy = {"Jubilant", "Happy", "Ecstatic"};
+        for (String i : happy) {
+            System.out.println(i);
         }
     }
 }
