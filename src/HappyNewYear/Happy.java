@@ -25,5 +25,7 @@ public class Happy {
         for (String i : happy) {
             System.out.println(i);
         }
+
+        happy.get
     }
 }
