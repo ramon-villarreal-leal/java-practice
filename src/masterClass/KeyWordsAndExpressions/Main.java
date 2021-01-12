@@ -19,6 +19,8 @@ public class Main {
         int score = 200;
         if(score > 100) {
             System.out.println("You got the highj score man!");
+        } else {
+            System.out.println("No more high score dude");
         }
 
     }
