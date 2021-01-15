@@ -31,7 +31,7 @@ public class Main {
         System.out.println("This is a cool test");
         System.out.println("This is a cooler test" +
                 "More test"
-        + "Lets goooo");
+                + "Lets goooo");
 
 
         int anotherVar = 50;
