@@ -13,15 +13,20 @@ public class Person {
 
 
     public static void main(String[] args) {
-        Person ada = new Person();
-        ada.firstName = "Bill";
-        ada.lastName = "Newman";
+        Person bill = new Person();
+        bill.firstName = "Bill";
+        bill.lastName = "Newman";
 
-        Person grace = new Person();
-        grace.firstName = "Hopper";
-        grace.lastName = "Eli";
+        Person hopper = new Person();
+        hopper.firstName = "Hopper";
+        hopper.lastName = "Eli";
 
-        System.out.println(ada.sayHello());
-        System.out.println(grace.sayHello());
+        Person laura = new Person();
+        laura.firstName = "Laura";
+        laura.lastName = "Leal";
+
+        System.out.println(bill.sayHello());
+        System.out.println(hopper.sayHello());
+        System.out.println(laura.sayHello());
     }
 }
