@@ -14,14 +14,14 @@ public class Person {
 
     public static void main(String[] args) {
         Person ada = new Person();
-        ada.firstName = "Ada";
-        ada.lastName = "Lovelace";
+        ada.firstName = "Bill";
+        ada.lastName = "Newman";
 
         Person grace = new Person();
-        grace.firstName = "Grace";
-        grace.lastName = "Hopper";
+        grace.firstName = "Hopper";
+        grace.lastName = "Eli";
 
-        System.out.println(ada.sayHello());   // "Hello from Ada Lovelace!"
-        System.out.println(grace.sayHello()); // "Hello from Grace Hopper!"
+        System.out.println(ada.sayHello());
+        System.out.println(grace.sayHello());
     }
 }
