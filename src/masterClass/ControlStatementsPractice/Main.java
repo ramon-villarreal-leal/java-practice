@@ -10,8 +10,11 @@ public class Main {
         if(score == 4000) {
             System.out.println("Your score is 6000");
             System.out.println("This runs");
+        } else if(score < 2000) {
+
         } else {
             System.out.println("condition false");
+            System.out.println("Part of condition");
         }
     }
 }
