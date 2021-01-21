@@ -16,12 +16,28 @@ public class Main {
 //            System.out.println("condition false");
 //            System.out.println("Part of condition");
 //        }
-
-        if(gameOn = true) {
+        // Scope of Java code and deals with accessbility!
+        if(gameOn) {
             int finalScoreDude = score + (levelComplete * bonusLevel);
             System.out.println("The final score is " + finalScoreDude);
         } else {
             System.out.println("Game over Bromigo!!!!");
         }
+
+        boolean newGame = true;
+        int newScore = 700;
+        int newLevelComplete = 8;
+        int newBonusLevel = 400;
+
+        if(newGame) {
+            int newFinalScoreDude = newScore + (newLevelComplete * newBonusLevel);
+            System.out.println("the new final score is " + newFinalScoreDude);
+        } else {
+            System.out.printf("Game over man!");
+        }
+
+
+
+
     }
 }
