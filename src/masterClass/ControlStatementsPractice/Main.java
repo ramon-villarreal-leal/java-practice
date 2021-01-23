@@ -6,6 +6,7 @@ public class Main {
         int score = 6000;
         int levelComplete = 5;
         int bonusLevel = 100;
+        calculateGameScore();
 //
 //        if(score < 4000 && score > 1500) {
 //            System.out.println("Your score is 6000");
@@ -41,6 +42,8 @@ public class Main {
 
     }
 
+
+
     public static void calculateGameScore() {
         boolean gameOn = true;
         int score = 6000;
@@ -58,4 +61,5 @@ public class Main {
         }
 
     }
+
 }
