@@ -55,7 +55,11 @@ public class Main {
             System.out.println("This runs");
         } else if(score > 2000) {
             System.out.println("Score was greater than 2000");
-        } else {
+
+        } else if(score < 1000){
+            System.out.println("Score was less than 1000");
+        }
+        else {
             System.out.println("condition false");
             System.out.println("Part of condition");
             System.out.println("Scope defined");
