@@ -13,6 +13,15 @@ public class TestGround {
         } else {
             System.out.println("Game over!!!!");
         }
+
+        for (int i = 0; i < 10; i++) {
+
+        }
+
+        String[] cheese = {"American", "Gouda", "Swiss Cheese", "Havarti"};
+        for(String i :cheese) {
+            System.out.println(i);
+        }
     }
 
 }

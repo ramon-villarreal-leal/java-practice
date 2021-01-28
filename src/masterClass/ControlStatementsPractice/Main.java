@@ -47,7 +47,7 @@ public class Main {
 
     // Parameters defined in section of new method
     public static void calculateGameScore(boolean gameOn, int score, int levelComplete, int bonusLevel) {
-        boolean gameOn = true;
+        boolean add gameOn = true;
         int score = 6000;
         int levelComplete = 5;
         int bonusLevel = 100;
