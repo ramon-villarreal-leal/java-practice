@@ -31,6 +31,9 @@ public class TestGround {
         }
 
         String[] dumplings = {"Shumai", "Dumplings", "Pork Shumai", "Shrimp Shumai"};
+        for(String k : dumplings) {
+            System.out.println(k);
+        }
 
 
     }
