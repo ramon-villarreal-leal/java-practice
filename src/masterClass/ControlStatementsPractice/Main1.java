@@ -3,6 +3,7 @@ package masterClass.ControlStatementsPractice;
 public class Main1 {
     private String games;
     private String cheese;
+    private String dumplings;
 
 
     public static void main(String[] args) {
@@ -23,5 +24,13 @@ public class Main1 {
 
     public void setCheese(String cheese) {
         this.cheese = cheese;
+    }
+
+    public String getDumplings() {
+        return dumplings;
+    }
+
+    public void setDumplings(String dumplings) {
+        this.dumplings = dumplings;
     }
 }
