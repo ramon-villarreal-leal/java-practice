@@ -30,6 +30,9 @@ public class TestGround {
             System.out.println(j);
         }
 
+        String[] dumplings = {"Shumai", "Dumplings", "Pork Shumai", "Shrimp Shumai"};
+
+
     }
 
 }
