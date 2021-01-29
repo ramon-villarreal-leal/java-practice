@@ -22,6 +22,9 @@ public class TestGround {
         for(String i :cheese) {
             System.out.println(i);
         }
+
+        String[] games = {"Halo", "CoD", "BFV", "The Medium", "WoW"};
+
     }
 
 }
