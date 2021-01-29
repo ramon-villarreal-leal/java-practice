@@ -25,6 +25,11 @@ public class TestGround {
 
         String[] games = {"Halo", "CoD", "BFV", "The Medium", "WoW"};
 
+        for (String j : games
+             ) {
+            System.out.println(j);
+        }
+
     }
 
 }
