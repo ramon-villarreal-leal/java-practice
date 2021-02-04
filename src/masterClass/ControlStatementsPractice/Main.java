@@ -43,7 +43,7 @@ public class Main {
 
 
         // Parameters defined in section of new method
-        public static void calculateGameScore ( boolean gameOn, int score, int levelComplete, int bonusLevel) {
+//        public static void calculateGameScore ( boolean gameOn, int score, int levelComplete, int bonusLevel) {
             gameOn = true;
             score = 6000;
             levelComplete = 5;
@@ -67,7 +67,7 @@ public class Main {
         }
 
 
-    }
+
 
     private static int calculateGameScore(boolean b, int i, int levelComplete, int bonusLevel) {
         return 0;
