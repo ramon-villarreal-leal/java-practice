@@ -6,7 +6,9 @@ public class Main {
         int score = 6000;
         int levelComplete = 5;
         int bonusLevel = 100;
-        calculateGameScore(true, 1000, levelComplete, bonusLevel);
+        // assign a variable to a method result
+        int highestScore = calculateGameScore(true, 1000, levelComplete, bonusLevel);
+        System.out.println("Your final score is: " + highestScore);
         //do not define again
 //        calculateGameScore(false, 2500, levelComplete, bonusLevel);
 //
@@ -40,30 +42,30 @@ public class Main {
         }
 
 
-    }
+        // Parameters defined in section of new method
+        public static void calculateGameScore ( boolean gameOn, int score, int levelComplete, int bonusLevel){
+            gameOn = true;
+            score = 6000;
+            levelComplete = 5;
+            bonusLevel = 100;
+
+            if (score < 4000 && score > 1500) {
+                System.out.println("Your score is 6000");
+                System.out.println("This runs");
+            } else if (score > 2000) {
+                System.out.println("Score was greater than 2000");
+
+            } else if (score < 1000) {
+                System.out.println("Score was less than 1000");
+            } else {
+                System.out.println("condition false");
+                System.out.println("Part of condition");
+                System.out.println("Scope defined");
+            }
 
 
-    // Parameters defined in section of new method
-    public static void calculateGameScore(boolean gameOn, int score, int levelComplete, int bonusLevel) {
-        gameOn = true;
-        score = 6000;
-        levelComplete = 5;
-        bonusLevel = 100;
-
-        if (score < 4000 && score > 1500) {
-            System.out.println("Your score is 6000");
-            System.out.println("This runs");
-        } else if (score > 2000) {
-            System.out.println("Score was greater than 2000");
-
-        } else if (score < 1000) {
-            System.out.println("Score was less than 1000");
-        } else {
-            System.out.println("condition false");
-            System.out.println("Part of condition");
-            System.out.println("Scope defined");
         }
 
-    }
 
+    }
 }
