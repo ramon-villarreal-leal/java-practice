@@ -2,7 +2,7 @@ package masterClass.ControlStatementsPractice;
 // Positive Negative CH
 public class Positive {
 
-    int posiive;
+    int positive;
 
         public static void checkPositive(int number) {
             if(number > 0) {
@@ -16,4 +16,11 @@ public class Positive {
             }
         }
 
+    public int getPositive() {
+        return positive;
+    }
+
+    public void setPositive(int positive) {
+        this.positive = positive;
+    }
 }
