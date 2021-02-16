@@ -2,6 +2,8 @@ package masterClass.ControlStatementsPractice;
 // Positive Negative CH
 public class Positive {
 
+    int posiive;
+
         public static void checkPositive(int number) {
             if(number > 0) {
                 System.out.println("This number is positive");
