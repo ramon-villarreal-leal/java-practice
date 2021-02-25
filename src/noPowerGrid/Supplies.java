@@ -28,4 +28,10 @@ public class Supplies {
     public void setBackPack(String backPack) {
         this.backPack = backPack;
     }
+
+    public Supplies(String water, String toiletPaper, String backPack) {
+        this.water = water;
+        this.toiletPaper = toiletPaper;
+        this.backPack = backPack;
+    }
 }

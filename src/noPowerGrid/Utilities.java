@@ -29,4 +29,10 @@ public class Utilities {
     public void setBackPack(String backPack) {
         this.backPack = backPack;
     }
+
+    public Utilities(int electricity, int gallonsOfWater, String backPack) {
+        this.electricity = electricity;
+        this.gallonsOfWater = gallonsOfWater;
+        this.backPack = backPack;
+    }
 }
