@@ -29,6 +29,12 @@ public class Food {
         this.craftBeer = craftBeer;
     }
 
+    public Food(String shumai, String water, String craftBeer) {
+        this.shumai = shumai;
+        this.water = water;
+        this.craftBeer = craftBeer;
+    }
+
     public static void main(String[] args) {
 
     }
