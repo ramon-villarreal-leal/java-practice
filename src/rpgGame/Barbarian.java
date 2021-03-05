@@ -10,4 +10,8 @@ public class Barbarian {
     public void setWeapons(String weapons) {
         this.weapons = weapons;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
