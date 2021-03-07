@@ -13,7 +13,13 @@ public class Barbarian {
         this.weapons = weapons;
     }
 
+    public String getMace() {
+        return mace;
+    }
 
+    public void setMace(String mace) {
+        this.mace = mace;
+    }
 
     public static void main(String[] args) {
 
