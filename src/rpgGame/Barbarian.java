@@ -22,6 +22,14 @@ public class Barbarian {
         this.mace = mace;
     }
 
+    public String getAxe() {
+        return axe;
+    }
+
+    public void setAxe(String axe) {
+        this.axe = axe;
+    }
+
     public static void main(String[] args) {
 
     }
