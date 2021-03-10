@@ -3,6 +3,7 @@ package rpgGame;
 public class Barbarian {
     private String weapons;
     private String mace;
+    private String axe;
 
 
     public String getWeapons() {
