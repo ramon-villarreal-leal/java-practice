@@ -28,4 +28,10 @@ public class Wizard {
     public void setStaff(String staff) {
         Staff = staff;
     }
+
+    public Wizard(int damage, String wand, String staff) {
+        this.damage = damage;
+        Wand = wand;
+        Staff = staff;
+    }
 }
