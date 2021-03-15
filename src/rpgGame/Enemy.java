@@ -37,4 +37,11 @@ public class Enemy {
     public void setShield(int shield) {
         this.shield = shield;
     }
+
+    public Enemy(int attack, int defense, int potions, int shield) {
+        this.attack = attack;
+        this.defense = defense;
+        this.potions = potions;
+        this.shield = shield;
+    }
 }
