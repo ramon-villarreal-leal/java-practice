@@ -28,4 +28,10 @@ public class Hero {
     public void setPotions(int potions) {
         this.potions = potions;
     }
+
+
+
+    public static void main(String[] args) {
+
+    }
 }
