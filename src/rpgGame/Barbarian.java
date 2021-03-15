@@ -30,6 +30,12 @@ public class Barbarian {
         this.axe = axe;
     }
 
+    public Barbarian(String weapons, String mace, String axe) {
+        this.weapons = weapons;
+        this.mace = mace;
+        this.axe = axe;
+    }
+
     public static void main(String[] args) {
 
     }
