@@ -30,7 +30,11 @@ public class Game {
         this.upgradeWeapon = upgradeWeapon;
     }
 
-
+    public Game(int score, int potions, int upgradeWeapon) {
+        this.score = score;
+        this.potions = potions;
+        this.upgradeWeapon = upgradeWeapon;
+    }
 
     public static void main(String[] args) {
         Hero player1 = new Hero();
