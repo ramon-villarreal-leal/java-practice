@@ -21,6 +21,12 @@ public class Magic {
         this.debuffs = debuffs;
     }
 
+    public Magic(int buffs, int debuffs, int curse) {
+        this.buffs = buffs;
+        this.debuffs = debuffs;
+        this.curse = curse;
+    }
+
     public int getCurse() {
         return curse;
     }
