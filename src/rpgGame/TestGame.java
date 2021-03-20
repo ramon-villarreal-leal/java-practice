@@ -30,6 +30,13 @@ public class TestGame {
         this.test1 = test1;
     }
 
+    public TestGame(String gameText, String prompts, String test1, String test2) {
+        this.gameText = gameText;
+        this.prompts = prompts;
+        this.test1 = test1;
+        this.test2 = test2;
+    }
+
     public String getTest2() {
         return test2;
     }
