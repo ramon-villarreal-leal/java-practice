@@ -28,4 +28,10 @@ public class Cars {
     public void setWheels(String wheels) {
         this.wheels = wheels;
     }
+
+    public Cars(String engine, String ac, String wheels) {
+        this.engine = engine;
+        this.ac = ac;
+        this.wheels = wheels;
+    }
 }
