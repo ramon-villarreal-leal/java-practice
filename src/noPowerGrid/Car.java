@@ -2,9 +2,11 @@ package noPowerGrid;
 
 public interface Car  {
     private String engine;
+    private String ac;
+    private String wheels;
 
-    public static void main(String[] args) {
 
-    }
+
+
 
 }
