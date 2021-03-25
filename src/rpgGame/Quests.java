@@ -37,4 +37,11 @@ public class Quests {
     public void setLevels(int levels) {
         this.levels = levels;
     }
+
+    public Quests(int gold, int gems, int levels, int difficulty) {
+        this.gold = gold;
+        this.gems = gems;
+        this.levels = levels;
+        this.difficulty = difficulty;
+    }
 }

@@ -38,5 +38,6 @@ public class Barbarian {
 
     public static void main(String[] args) {
 
+
     }
 }
