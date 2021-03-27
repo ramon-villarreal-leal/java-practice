@@ -28,4 +28,10 @@ public class Knight {
     public void setDefense(int defense) {
         this.defense = defense;
     }
+
+    public Knight(String lance, int attack, int defense) {
+        this.lance = lance;
+        this.attack = attack;
+        this.defense = defense;
+    }
 }
