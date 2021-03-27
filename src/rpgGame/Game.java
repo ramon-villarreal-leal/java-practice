@@ -42,6 +42,8 @@ public class Game {
 
         if(player1.equals(p1.getAxe())) {
             System.out.println("You're a Barbarian!!!");
+        } else {
+            System.out.println("nope");
         }
     }
 }
