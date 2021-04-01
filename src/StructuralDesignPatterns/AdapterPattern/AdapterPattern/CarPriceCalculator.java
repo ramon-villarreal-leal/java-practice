@@ -17,4 +17,9 @@ public class CarPriceCalculator implements PriceCalculator {
     public void setModel(String model) {
         this.model = model;
     }
+
+    public CarPriceCalculator(int age, String model) {
+        this.age = age;
+        this.model = model;
+    }
 }
