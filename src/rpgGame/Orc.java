@@ -38,6 +38,13 @@ public class Orc {
         this.shield = shield;
     }
 
+    public Orc(int attack, int defense, int sword, int shield) {
+        this.attack = attack;
+        this.defense = defense;
+        this.sword = sword;
+        this.shield = shield;
+    }
+
     public static void main(String[] args) {
 
     }
