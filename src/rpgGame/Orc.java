@@ -3,8 +3,9 @@ package rpgGame;
 public class Orc {
     private int attack;
     private int defense;
-    private int sword;
-    private int shield;
+    private String sword;
+    private String shield;
+    private int magic;
 
     public int getAttack() {
         return attack;
@@ -22,28 +23,10 @@ public class Orc {
         this.defense = defense;
     }
 
-    public int getSword() {
-        return sword;
-    }
 
-    public void setSword(int sword) {
-        this.sword = sword;
-    }
 
-    public int getShield() {
-        return shield;
-    }
 
-    public void setShield(int shield) {
-        this.shield = shield;
-    }
 
-    public Orc(int attack, int defense, int sword, int shield) {
-        this.attack = attack;
-        this.defense = defense;
-        this.sword = sword;
-        this.shield = shield;
-    }
 
     public static void main(String[] args) {
 
