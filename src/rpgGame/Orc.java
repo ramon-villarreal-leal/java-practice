@@ -23,10 +23,29 @@ public class Orc {
         this.defense = defense;
     }
 
+    public String getSword() {
+        return sword;
+    }
 
+    public void setSword(String sword) {
+        this.sword = sword;
+    }
 
+    public String getShield() {
+        return shield;
+    }
 
+    public void setShield(String shield) {
+        this.shield = shield;
+    }
 
+    public int getMagic() {
+        return magic;
+    }
+
+    public void setMagic(int magic) {
+        this.magic = magic;
+    }
 
     public static void main(String[] args) {
 
