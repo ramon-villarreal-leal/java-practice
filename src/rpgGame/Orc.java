@@ -47,6 +47,14 @@ public class Orc {
         this.magic = magic;
     }
 
+    public Orc(int attack, int defense, String sword, String shield, int magic) {
+        this.attack = attack;
+        this.defense = defense;
+        this.sword = sword;
+        this.shield = shield;
+        this.magic = magic;
+    }
+
     public static void main(String[] args) {
 
     }
