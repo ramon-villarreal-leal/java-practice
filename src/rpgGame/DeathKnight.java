@@ -37,4 +37,14 @@ public class DeathKnight {
     public void setWeapon(String weapon) {
         this.weapon = weapon;
     }
+
+    @Override
+    public String toString() {
+        return "DeathKnight{" +
+                "attack=" + attack +
+                ", defense=" + defense +
+                ", magicPower=" + magicPower +
+                ", weapon='" + weapon + '\'' +
+                '}';
+    }
 }
