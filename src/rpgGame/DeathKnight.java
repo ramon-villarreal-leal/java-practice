@@ -47,4 +47,11 @@ public class DeathKnight {
                 ", weapon='" + weapon + '\'' +
                 '}';
     }
+
+    public DeathKnight(int attack, int defense, int magicPower, String weapon) {
+        this.attack = attack;
+        this.defense = defense;
+        this.magicPower = magicPower;
+        this.weapon = weapon;
+    }
 }
