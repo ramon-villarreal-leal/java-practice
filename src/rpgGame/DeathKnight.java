@@ -54,4 +54,8 @@ public class DeathKnight {
         this.magicPower = magicPower;
         this.weapon = weapon;
     }
+
+    public static void main(String[] args) {
+        System.out.println("Test area");
+    }
 }
